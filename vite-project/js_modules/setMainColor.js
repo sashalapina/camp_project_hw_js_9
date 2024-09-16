@@ -57,16 +57,16 @@ export function setMainColorBtn(document, button1, button2, button3) {
 }
 
 function setActive(button, bgcolor) {
-  button.style.width = '34px'
-  button.style.height = '34px'
+  button.style.width = '26px'
+  button.style.height = '26px'
   button.style.borderRadius = '50%'
   button.style.boxShadow = `0 0 0 3px ${bgcolor}`
   button.style.border = '2px solid var(--cream-color)'
 }
 
 function clearActive(button) {
-  button.style.width = '36px'
-  button.style.height = '36px'
+  button.style.width = '28px'
+  button.style.height = '28px'
   button.style.borderRadius = '50%'
   button.style.boxShadow = 'none'
   button.style.border = 'none'

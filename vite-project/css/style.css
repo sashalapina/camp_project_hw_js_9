@@ -253,35 +253,25 @@ body {
 }
 
 .color-btn-1 {
-    width: 34px;
-    height: 34px;
-    border-radius: 17px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
     border-style: none;
     background-color: var(--deep-aquamarine);
 }
 
 .color-btn-2 {
-    width: 34px;
-    height: 34px;
-    border-radius: 17px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
     border-style: none;
     background-color: var(--aurometal-color);
 }
 
 .color-btn-3 {
-    width: 34px;
-    height: 34px;
-    border-radius: 17px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
     border-style: none;
     background-color: var(--gunmetal);
 }
-
-/* .color-btn-1:hover, */
-/* .color-btn-1:active {
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-    background-color: var(--deep-aquamarine);
-    box-shadow: 0 0 0 3px var(--deep-aquamarine);
-    border: 2px solid var(--cream-color);
-} */
