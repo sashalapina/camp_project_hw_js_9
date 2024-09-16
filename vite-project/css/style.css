@@ -7,6 +7,8 @@
     --gunmetal: #1C232B;
     --random-color: transparent;
     --hover-random-color: transparent;
+    --main-active-color: #3D8168;
+    --hover-main-active-color: #1A4032;
 }
 
 
@@ -119,7 +121,7 @@ body {
     font-size: 32px;
     font-weight: 700;
     font-family: 'Fraunces';
-    color: var(--random-color);
+    color: var(--main-active-color);
 }
 
 .card-sell-full-price {
@@ -143,7 +145,7 @@ body {
     font-size: 14px;
     font-weight: bold;
     color: var(--pure-whire-color);
-    background-color: var(--random-color);
+    background-color: var(--main-active-color);
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -152,7 +154,7 @@ body {
 
 .card-sell-btn-text:hover {
     margin: 0;
-    background-color: var(--hover-random-color);
+    background-color: var(--hover-main-active-color);
 }
 
 .card-sell-btn-icon {
@@ -232,7 +234,7 @@ body {
     font-weight: 900;
     font-size: 32px;
     text-align: left;
-    color: var(--random-color);
+    color: var(--main-active-color);
     margin-left: auto;
     margin-right: 12px;
 }
@@ -244,3 +246,42 @@ body {
     height: 100vh;
     margin: 0;
 }
+
+.color-switch-block {
+    padding-bottom: 15px;
+    gap: 14px;
+}
+
+.color-btn-1 {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    border-style: none;
+    background-color: var(--deep-aquamarine);
+}
+
+.color-btn-2 {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    border-style: none;
+    background-color: var(--aurometal-color);
+}
+
+.color-btn-3 {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    border-style: none;
+    background-color: var(--gunmetal);
+}
+
+/* .color-btn-1:hover, */
+/* .color-btn-1:active {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: var(--deep-aquamarine);
+    box-shadow: 0 0 0 3px var(--deep-aquamarine);
+    border: 2px solid var(--cream-color);
+} */
